@@ -42,8 +42,6 @@ Run the script:
 npm run start
 ```
 
-Ensure you replace `your-script-name.js` with the appropriate name of your file.
-
 ## Logging
 
 This script provides detailed logs on:
