@@ -1,0 +1,650 @@
+{
+  "eu": {
+    "market": {
+      "commodities": {
+        "WTI_OIL": {
+          "ask": 90.188,
+          "bid": 90.163,
+          "day_percentage_change": "+0.27%",
+          "display_order": 6,
+          "market": "commodities",
+          "region": "eu",
+          "shortcode": "WTI_OIL",
+          "spread": 0.025,
+          "symbol": "West Texas Intermediate"
+        },
+        "frxXAGUSD": {
+          "ask": 23.055,
+          "bid": 23.025,
+          "day_percentage_change": "+1.81%",
+          "display_order": 2,
+          "market": "commodities",
+          "region": "eu",
+          "shortcode": "frxXAGUSD",
+          "spread": 0.03,
+          "symbol": "Silver/USD"
+        },
+        "frxXAUUSD": {
+          "ask": 1917.94,
+          "bid": 1917.7,
+          "day_percentage_change": "+0.41%",
+          "display_order": 1,
+          "market": "commodities",
+          "region": "eu",
+          "shortcode": "frxXAUUSD",
+          "spread": 0.24,
+          "symbol": "Gold/USD"
+        },
+        "frxXCUUSD": {
+          "ask": 8438.8,
+          "bid": 8433.25,
+          "day_percentage_change": "-0.00%",
+          "display_order": 5,
+          "market": "commodities",
+          "region": "eu",
+          "shortcode": "frxXCUUSD",
+          "spread": 5.55,
+          "symbol": "Copper/USD"
+        },
+        "frxXPDUSD": {
+          "ask": 1264.99,
+          "bid": 1260.11,
+          "day_percentage_change": "+1.44%",
+          "display_order": 4,
+          "market": "commodities",
+          "region": "eu",
+          "shortcode": "frxXPDUSD",
+          "spread": 4.88,
+          "symbol": "Palladium/USD"
+        },
+        "frxXPTUSD": {
+          "ask": 918.7,
+          "bid": 917.7,
+          "day_percentage_change": "+0.77%",
+          "display_order": 3,
+          "market": "commodities",
+          "region": "eu",
+          "shortcode": "frxXPTUSD",
+          "spread": 1,
+          "symbol": "Platinum/USD"
+        }
+      },
+      "cryptocurrency": {
+        "cryADAUSD": {
+          "ask": 0.25081,
+          "bid": 0.25048,
+          "day_percentage_change": "-0.22%",
+          "display_order": 6,
+          "market": "cryptocurrency",
+          "region": "eu",
+          "shortcode": "cryADAUSD",
+          "spread": 0.00033,
+          "symbol": "ADA/USD"
+        },
+        "cryBTCUSD": {
+          "ask": 26542.785,
+          "bid": 26521.115,
+          "day_percentage_change": "+0.08%",
+          "display_order": 1,
+          "market": "cryptocurrency",
+          "region": "eu",
+          "shortcode": "cryBTCUSD",
+          "spread": 21.67,
+          "symbol": "BTC/USD"
+        },
+        "cryDOGUSD": {
+          "ask": 0.06187,
+          "bid": 0.06175,
+          "day_percentage_change": "-0.36%",
+          "display_order": 5,
+          "market": "cryptocurrency",
+          "region": "eu",
+          "shortcode": "cryDOGUSD",
+          "spread": 0.00012,
+          "symbol": "DOG/USD"
+        },
+        "cryDSHUSD": {
+          "ask": 25.79,
+          "bid": 25.748,
+          "day_percentage_change": "+0.70%",
+          "display_order": 4,
+          "market": "cryptocurrency",
+          "region": "eu",
+          "shortcode": "cryDSHUSD",
+          "spread": 0.042,
+          "symbol": "DSH/USD"
+        },
+        "cryETHUSD": {
+          "ask": 1626.82998,
+          "bid": 1625.14002,
+          "day_percentage_change": "+0.02%",
+          "display_order": 2,
+          "market": "cryptocurrency",
+          "region": "eu",
+          "shortcode": "cryETHUSD",
+          "spread": 1.68996,
+          "symbol": "ETH/USD"
+        },
+        "cryLTCUSD": {
+          "ask": 63.10326,
+          "bid": 62.8947,
+          "day_percentage_change": "+0.35%",
+          "display_order": 3,
+          "market": "cryptocurrency",
+          "region": "eu",
+          "shortcode": "cryLTCUSD",
+          "spread": 0.20856,
+          "symbol": "LTC/USD"
+        }
+      },
+      "derived": {
+        "1HZ150V": {
+          "ask": 14558.83,
+          "bid": 14545.95,
+          "day_percentage_change": "-5.92%",
+          "display_order": 3,
+          "market": "derived",
+          "region": "eu",
+          "shortcode": "1HZ150V",
+          "spread": 12.88,
+          "symbol": "Volatility 150 (1s) Index"
+        },
+        "1HZ250V": {
+          "ask": 160908.67,
+          "bid": 160724.04,
+          "day_percentage_change": "+7.02%",
+          "display_order": 4,
+          "market": "derived",
+          "region": "eu",
+          "shortcode": "1HZ250V",
+          "spread": 184.63,
+          "symbol": "Volatility 250 (1s) Index"
+        },
+        "BOOM300": {
+          "ask": 417.643,
+          "bid": 417.322,
+          "day_percentage_change": "-2.49%",
+          "display_order": 1,
+          "market": "derived",
+          "region": "eu",
+          "shortcode": "BOOM300",
+          "spread": 0.321,
+          "symbol": "Boom 300 Index"
+        },
+        "CRASH300": {
+          "ask": 4037.962,
+          "bid": 4037.46,
+          "day_percentage_change": "+1.06%",
+          "display_order": 2,
+          "market": "derived",
+          "region": "eu",
+          "shortcode": "CRASH300",
+          "spread": 0.502,
+          "symbol": "Crash 300 Index"
+        }
+      },
+      "forex": {
+        "frxAUDUSD": {
+          "ask": 0.64556,
+          "bid": 0.64549,
+          "day_percentage_change": "+0.38%",
+          "display_order": 5,
+          "market": "forex",
+          "region": "eu",
+          "shortcode": "frxAUDUSD",
+          "spread": 0.00007,
+          "symbol": "AUD/USD"
+        },
+        "frxEURUSD": {
+          "ask": 1.0667,
+          "bid": 1.06665,
+          "day_percentage_change": "+0.29%",
+          "display_order": 1,
+          "market": "forex",
+          "region": "eu",
+          "shortcode": "frxEURUSD",
+          "spread": 0.00005,
+          "symbol": "EUR/USD"
+        },
+        "frxGBPJPY": {
+          "ask": 183.764,
+          "bid": 183.749,
+          "day_percentage_change": "+0.49%",
+          "display_order": 3,
+          "market": "forex",
+          "region": "eu",
+          "shortcode": "frxGBPJPY",
+          "spread": 0.015,
+          "symbol": "GBP/JPY"
+        },
+        "frxGBPUSD": {
+          "ask": 1.24385,
+          "bid": 1.24381,
+          "day_percentage_change": "+0.30%",
+          "display_order": 2,
+          "market": "forex",
+          "region": "eu",
+          "shortcode": "frxGBPUSD",
+          "spread": 0.00004,
+          "symbol": "GBP/USD"
+        },
+        "frxUSDCAD": {
+          "ask": 1.35065,
+          "bid": 1.35056,
+          "day_percentage_change": "-0.07%",
+          "display_order": 6,
+          "market": "forex",
+          "region": "eu",
+          "shortcode": "frxUSDCAD",
+          "spread": 0.00009,
+          "symbol": "USD/CAD"
+        },
+        "frxUSDJPY": {
+          "ask": 147.74,
+          "bid": 147.731,
+          "day_percentage_change": "+0.19%",
+          "display_order": 4,
+          "market": "forex",
+          "region": "eu",
+          "shortcode": "frxUSDJPY",
+          "spread": 0.009,
+          "symbol": "USD/JPY"
+        }
+      },
+      "indices": {
+        "OTC_DJI": {
+          "ask": 35020.55,
+          "bid": 35017.55,
+          "day_percentage_change": "+0.11%",
+          "display_order": 1,
+          "market": "indices",
+          "region": "eu",
+          "shortcode": "OTC_DJI",
+          "spread": 3,
+          "symbol": "Wall Street 30"
+        },
+        "OTC_NDX": {
+          "ask": 15471.33,
+          "bid": 15469.27,
+          "day_percentage_change": "-0.05%",
+          "display_order": 2,
+          "market": "indices",
+          "region": "eu",
+          "shortcode": "OTC_NDX",
+          "spread": 2.06,
+          "symbol": "US Tech 100"
+        }
+      },
+      "stocks": {
+        "USAAPL": {
+          "ask": 175.96,
+          "bid": 175.37,
+          "day_percentage_change": "+0.00%",
+          "display_order": 4,
+          "market": "stocks",
+          "region": "eu",
+          "shortcode": "USAAPL",
+          "spread": 0.59,
+          "symbol": "Apple (AAPL)"
+        },
+        "USDIS": {
+          "ask": 84.8,
+          "bid": 84.17,
+          "day_percentage_change": "0.00%",
+          "display_order": 5,
+          "market": "stocks",
+          "region": "eu",
+          "shortcode": "USDIS",
+          "spread": 0.63,
+          "symbol": "Walt Disney Co (DIS)"
+        },
+        "USTSLMTR": {
+          "ask": 276.7,
+          "bid": 275.56,
+          "day_percentage_change": "0.00%",
+          "display_order": 3,
+          "market": "stocks",
+          "region": "eu",
+          "shortcode": "USTSLMTR",
+          "spread": 1.14,
+          "symbol": "Tesla (TSLA)"
+        }
+      }
+    }
+  },
+  "row": {
+    "market": {
+      "commodities": {
+        "WTI_OIL": {
+          "ask": 90.188,
+          "bid": 90.163,
+          "day_percentage_change": "+0.27%",
+          "display_order": 6,
+          "market": "commodities",
+          "region": "row",
+          "shortcode": "WTI_OIL",
+          "spread": 0.025,
+          "symbol": "West Texas Intermediate"
+        },
+        "frxXAGUSD": {
+          "ask": 23.055,
+          "bid": 23.025,
+          "day_percentage_change": "+1.81%",
+          "display_order": 2,
+          "market": "commodities",
+          "region": "row",
+          "shortcode": "frxXAGUSD",
+          "spread": 0.03,
+          "symbol": "Silver/USD"
+        },
+        "frxXAUUSD": {
+          "ask": 1917.94,
+          "bid": 1917.7,
+          "day_percentage_change": "+0.41%",
+          "display_order": 1,
+          "market": "commodities",
+          "region": "row",
+          "shortcode": "frxXAUUSD",
+          "spread": 0.24,
+          "symbol": "Gold/USD"
+        },
+        "frxXCUUSD": {
+          "ask": 8438.8,
+          "bid": 8433.25,
+          "day_percentage_change": "-0.00%",
+          "display_order": 5,
+          "market": "commodities",
+          "region": "row",
+          "shortcode": "frxXCUUSD",
+          "spread": 5.55,
+          "symbol": "Copper/USD"
+        },
+        "frxXPDUSD": {
+          "ask": 1264.99,
+          "bid": 1260.11,
+          "day_percentage_change": "+1.44%",
+          "display_order": 4,
+          "market": "commodities",
+          "region": "row",
+          "shortcode": "frxXPDUSD",
+          "spread": 4.88,
+          "symbol": "Palladium/USD"
+        },
+        "frxXPTUSD": {
+          "ask": 918.7,
+          "bid": 917.7,
+          "day_percentage_change": "+0.77%",
+          "display_order": 3,
+          "market": "commodities",
+          "region": "row",
+          "shortcode": "frxXPTUSD",
+          "spread": 1,
+          "symbol": "Platinum/USD"
+        }
+      },
+      "cryptocurrency": {
+        "cryADAUSD": {
+          "ask": 0.25081,
+          "bid": 0.25048,
+          "day_percentage_change": "-0.22%",
+          "display_order": 6,
+          "market": "cryptocurrency",
+          "region": "row",
+          "shortcode": "cryADAUSD",
+          "spread": 0.00033,
+          "symbol": "ADA/USD"
+        },
+        "cryBTCUSD": {
+          "ask": 26542.785,
+          "bid": 26521.115,
+          "day_percentage_change": "+0.08%",
+          "display_order": 1,
+          "market": "cryptocurrency",
+          "region": "row",
+          "shortcode": "cryBTCUSD",
+          "spread": 21.67,
+          "symbol": "BTC/USD"
+        },
+        "cryDOGUSD": {
+          "ask": 0.06187,
+          "bid": 0.06175,
+          "day_percentage_change": "-0.36%",
+          "display_order": 5,
+          "market": "cryptocurrency",
+          "region": "row",
+          "shortcode": "cryDOGUSD",
+          "spread": 0.00012,
+          "symbol": "DOG/USD"
+        },
+        "cryDSHUSD": {
+          "ask": 25.79,
+          "bid": 25.748,
+          "day_percentage_change": "+0.70%",
+          "display_order": 4,
+          "market": "cryptocurrency",
+          "region": "row",
+          "shortcode": "cryDSHUSD",
+          "spread": 0.042,
+          "symbol": "DSH/USD"
+        },
+        "cryETHUSD": {
+          "ask": 1626.82998,
+          "bid": 1625.14002,
+          "day_percentage_change": "+0.02%",
+          "display_order": 2,
+          "market": "cryptocurrency",
+          "region": "row",
+          "shortcode": "cryETHUSD",
+          "spread": 1.68996,
+          "symbol": "ETH/USD"
+        },
+        "cryLTCUSD": {
+          "ask": 63.10326,
+          "bid": 62.8947,
+          "day_percentage_change": "+0.35%",
+          "display_order": 3,
+          "market": "cryptocurrency",
+          "region": "row",
+          "shortcode": "cryLTCUSD",
+          "spread": 0.20856,
+          "symbol": "LTC/USD"
+        }
+      },
+      "derived": {
+        "CRASH1000": {
+          "ask": 6873.7825,
+          "bid": 6873.6685,
+          "day_percentage_change": "-0.32%",
+          "display_order": 2,
+          "market": "derived",
+          "region": "row",
+          "shortcode": "CRASH1000",
+          "spread": 0.114,
+          "symbol": "Crash 1000 Index"
+        },
+        "EURUSDDFX10": {
+          "ask": 75833.5,
+          "bid": 75822.78,
+          "day_percentage_change": "+0.44%",
+          "display_order": 3,
+          "market": "derived",
+          "region": "row",
+          "shortcode": "EURUSDDFX10",
+          "spread": 10.72,
+          "symbol": "EUR/USD DFX 10 Index"
+        },
+        "JD50": {
+          "ask": 33517.42,
+          "bid": 33508.47,
+          "day_percentage_change": "+2.44%",
+          "display_order": 4,
+          "market": "derived",
+          "region": "row",
+          "shortcode": "JD50",
+          "spread": 8.95,
+          "symbol": "Jump 50 Index"
+        },
+        "RB200": {
+          "ask": 101502.5,
+          "bid": 101500.5,
+          "day_percentage_change": "-0.16%",
+          "display_order": 6,
+          "market": "derived",
+          "region": "row",
+          "shortcode": "RB200",
+          "spread": 2,
+          "symbol": "Range Break 200 Index"
+        },
+        "R_75": {
+          "ask": 355117.69,
+          "bid": 354925.19,
+          "day_percentage_change": "-0.91%",
+          "display_order": 1,
+          "market": "derived",
+          "region": "row",
+          "shortcode": "R_75",
+          "spread": 192.5,
+          "symbol": "Volatility 75 Index"
+        },
+        "stpRNG": {
+          "ask": 8430.4,
+          "bid": 8430.2,
+          "day_percentage_change": "+0.07%",
+          "display_order": 5,
+          "market": "derived",
+          "region": "row",
+          "shortcode": "stpRNG",
+          "spread": 0.2,
+          "symbol": "Step Index"
+        }
+      },
+      "forex": {
+        "frxAUDUSD": {
+          "ask": 0.64556,
+          "bid": 0.64549,
+          "day_percentage_change": "+0.38%",
+          "display_order": 5,
+          "market": "forex",
+          "region": "row",
+          "shortcode": "frxAUDUSD",
+          "spread": 0.00007,
+          "symbol": "AUD/USD"
+        },
+        "frxEURUSD": {
+          "ask": 1.0667,
+          "bid": 1.06665,
+          "day_percentage_change": "+0.29%",
+          "display_order": 1,
+          "market": "forex",
+          "region": "row",
+          "shortcode": "frxEURUSD",
+          "spread": 0.00005,
+          "symbol": "EUR/USD"
+        },
+        "frxGBPJPY": {
+          "ask": 183.764,
+          "bid": 183.749,
+          "day_percentage_change": "+0.49%",
+          "display_order": 3,
+          "market": "forex",
+          "region": "row",
+          "shortcode": "frxGBPJPY",
+          "spread": 0.015,
+          "symbol": "GBP/JPY"
+        },
+        "frxGBPUSD": {
+          "ask": 1.24385,
+          "bid": 1.24381,
+          "day_percentage_change": "+0.30%",
+          "display_order": 2,
+          "market": "forex",
+          "region": "row",
+          "shortcode": "frxGBPUSD",
+          "spread": 0.00004,
+          "symbol": "GBP/USD"
+        },
+        "frxUSDCAD": {
+          "ask": 1.35065,
+          "bid": 1.35056,
+          "day_percentage_change": "-0.07%",
+          "display_order": 6,
+          "market": "forex",
+          "region": "row",
+          "shortcode": "frxUSDCAD",
+          "spread": 0.00009,
+          "symbol": "USD/CAD"
+        },
+        "frxUSDJPY": {
+          "ask": 147.74,
+          "bid": 147.731,
+          "day_percentage_change": "+0.19%",
+          "display_order": 4,
+          "market": "forex",
+          "region": "row",
+          "shortcode": "frxUSDJPY",
+          "spread": 0.009,
+          "symbol": "USD/JPY"
+        }
+      },
+      "indices": {
+        "OTC_DJI": {
+          "ask": 35020.55,
+          "bid": 35017.55,
+          "day_percentage_change": "+0.11%",
+          "display_order": 1,
+          "market": "indices",
+          "region": "row",
+          "shortcode": "OTC_DJI",
+          "spread": 3,
+          "symbol": "Wall Street 30"
+        },
+        "OTC_NDX": {
+          "ask": 15471.33,
+          "bid": 15469.27,
+          "day_percentage_change": "-0.05%",
+          "display_order": 2,
+          "market": "indices",
+          "region": "row",
+          "shortcode": "OTC_NDX",
+          "spread": 2.06,
+          "symbol": "US Tech 100"
+        }
+      },
+      "stocks": {
+        "USAAPL": {
+          "ask": 175.96,
+          "bid": 175.37,
+          "day_percentage_change": "+0.00%",
+          "display_order": 4,
+          "market": "stocks",
+          "region": "row",
+          "shortcode": "USAAPL",
+          "spread": 0.59,
+          "symbol": "Apple (AAPL)"
+        },
+        "USDIS": {
+          "ask": 84.8,
+          "bid": 84.17,
+          "day_percentage_change": "0.00%",
+          "display_order": 5,
+          "market": "stocks",
+          "region": "row",
+          "shortcode": "USDIS",
+          "spread": 0.63,
+          "symbol": "Walt Disney Co (DIS)"
+        },
+        "USTSLMTR": {
+          "ask": 276.7,
+          "bid": 275.56,
+          "day_percentage_change": "0.00%",
+          "display_order": 3,
+          "market": "stocks",
+          "region": "row",
+          "shortcode": "USTSLMTR",
+          "spread": 1.14,
+          "symbol": "Tesla (TSLA)"
+        }
+      }
+    }
+  }
+}
