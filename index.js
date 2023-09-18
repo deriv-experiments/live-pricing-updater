@@ -7,6 +7,7 @@ let latest = {};
 
 const FIREBASE_URL = `https://${cfg.firebase.project}.firebaseio.com`;
 const FIREBASE_SECRET = cfg.firebase.token;
+const IDLE_CRASH_TIMEOUT = 60000;
 
 const ws = new WebSocket(`wss://ws.binaryws.com/websockets/v3?app_id=${cfg.deriv.app_id}`);
 
@@ -28,7 +29,15 @@ ws.on('open', function open() {
     }, 14 * 1000);  // 14 seconds interval for sending pings
 });
 
+let failSafeAbortTimer;
+
 ws.on('message', function incoming(frame) {
+    clearTimeout(failSafeAbortTimer);
+    failSafeAbortTimer = setTimeout(() => {
+        console.log('No update received in the last minute. Crashing process.');
+        process.exit(1);
+    }, IDLE_CRASH_TIMEOUT);
+
     console.log('frame', frame);
     let data = JSON.parse(frame);
     let assets = data.trading_platform_asset_listing?.mt5?.assets;
